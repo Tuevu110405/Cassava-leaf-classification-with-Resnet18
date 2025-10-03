@@ -19,6 +19,21 @@ weighted avg       0.73      0.74      0.70
 ```
 
 ### Performance of model trained with FocalLoss on test 
+```
+                precision    recall  f1-score   
+
+         cbb       0.49      0.52      0.50       
+        cbsd       0.72      0.75      0.73       
+         cgm       0.63      0.43      0.51       
+         cmd       0.85      0.86      0.85       
+     healthy       0.49      0.70      0.57       
+
+    accuracy                           0.73      
+   macro avg       0.64      0.65      0.63      
+weighted avg       0.74      0.73      0.73      
+```
+
+### Performance of model trained with FocalLoss&WeigtLoss on test 
 
 ```
                 precision   recall  f1-score   
